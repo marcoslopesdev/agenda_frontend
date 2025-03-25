@@ -1,0 +1,85 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.contatoForm, .clienteForm{
+  background: #fff;
+  border-radius: 8px;
+  color: #666;
+  padding: 20px 30px;
+  width: 450px;
+  box-shadow: 0px 0px 4px rgb(0, 0, 0, 0.16);
+  margin-top: 10px;
+  h1{
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  label, p{
+    text-align: left;
+  }
+  input, select, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  button{
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
+
+.clienteForm{
+  margin-top: 40px;
+}
+
+.homeBanner{
+  background-color: #97d5fb;
+  min-height: 85%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  padding-top: 77px;
+}
